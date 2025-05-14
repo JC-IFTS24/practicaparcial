@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Automotores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RGB Automotores</h1>
+    </header>
+    <main>
+        <section>
+            <table id="table">
+                <tr>
+                    <th>Marca</th>
+                    <th>Modelo</th>
+                    <th>Año</th>
+                    <th>Color</th>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <form action="">
+                <div>
+                    <label for="marca">Marca</label>
+                    <input name="marca" placeholder="Marca" id="marcaInput" type="text">
+                </div>
+                <div>
+                    <label for="modelo">Modelo</label>
+                    <input type="text" name="modelo" id="modeloInput" placeholder="Modelo">
+                </div>
+                <div>
+                    <label for="anio">Año</label>
+                    <input name="anio" type="number" id="anioInput" min="1886" max="2025">
+                </div>
+                <div>
+                    <label for="color">Color</label>
+                    <select name="color" id="colorInput">
+                        <option value=""></option>
+                        <option value="Blue">Azul</option>
+                        <option value="Red">Red</option>
+                    </select>
+                </div>
+                <button onclick="agregarAuto()" type="button">Agregar</button>
+            </form>
+
+        </section>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
