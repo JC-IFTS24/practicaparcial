@@ -1,0 +1,31 @@
+table{
+    margin-top: 1em;
+    width: 30vw;
+    border-collapse: collapse;
+}
+
+td, th{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+input{
+    text-align: left;
+}
+
+form{
+    margin-top: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    width: 10vw;
+}
+
+.rojo:hover {
+background-color: red;
+}
